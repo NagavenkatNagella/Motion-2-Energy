@@ -12,7 +12,7 @@ It is an initiative for **Green Smart Highways** that combines **renewable energ
 🎯 Project Goals
 
 - Maximize underutilized infrastructure (e.g., dividers) for renewable energy.
-- Enable **wireless inductive EV charging** on highways with dynamic charging zones.
+- Enable **wireless inductive EV charging** on highways with dynamic charging paths and zones.
 - Ensure **real-time monitoring** using sensors and web dashboards.
 - Integrate **security mechanisms** like tamper detection and data logging.
 - Comply with Indian and global standards for wireless energy transmission.
@@ -20,24 +20,23 @@ It is an initiative for **Green Smart Highways** that combines **renewable energ
 ⚙️ System Components
 
 🌀 **VAWT System**
-- **Helical Vertical Axis Wind Turbines** harness wind from passing vehicles.
+- **Vertical Axis Wind Turbines** harness wind from passing vehicles.
 - Compact and efficient in urban or divider settings.
 - Modular setup allows expansion over large highway stretches.
 
 🔋 **Energy Storage**
 - Battery banks store the energy for:
   - Night lighting
-  - EV charging zones
+  - EV charging path and zones
   - Sensor operation
 
  📶 **IoT Monitoring**
 - DHT11 for temperature and humidity.
-- Hall-effect/touch sensors for tamper detection.
+- Touch sensors for tamper detection.
 - NodeMCU ESP8266 microcontroller uploads real-time data.
 - LCD display and web dashboard for visual monitoring.
 
 🔌 Wireless Charging Infrastructure
-
 
 ⚡ Underlying Physics: How Wireless Charging Works
 
@@ -76,7 +75,7 @@ Power electronics modules regulate phase, frequency, and safety interlocks.
 - Real-time temperature,humidity.
 - Tamper event logs.
 - Simple, responsive design using HTML/CSS/JS.
-- 
+  
 📝 Prototype Access
 
 Click the link below to view prototype images and demo videos:
@@ -84,5 +83,5 @@ Click the link below to view prototype images and demo videos:
 
 🌍 Vision
 
-From motion to power—building highways that charge our world responsibly.
+From motion to power building highways that charge our world responsibly.
 
