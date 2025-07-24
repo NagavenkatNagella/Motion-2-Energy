@@ -36,23 +36,34 @@ It is an initiative for **Green Smart Highways** that combines **renewable energ
 - NodeMCU ESP8266 microcontroller uploads real-time data.
 - LCD display and web dashboard for visual monitoring.
 
-🔌 **Wireless EV Charging**
-- Based on **Inductive Power Transfer (IPT)** and **Resonant Inductive Coupling**.
-- Energy from turbines is transferred wirelessly to an EV receiver coil embedded in the road surface.
-- Power electronics control the timing, frequency, and safety of transfer.
+🔌 Wireless Charging Infrastructure
 
 
-📜 Legal and Safety Compliance
+⚡ Underlying Physics: How Wireless Charging Works
 
-Wireless charging for EVs—especially on highways—must comply with certain standards and laws. Here's how **Motion 2 Energy** aligns:
+Wireless charging for Electric Vehicles (EVs) is rooted in fundamental electromagnetic laws:
 
-✅ **Global & Indian Standards:**
+Faraday’s Law of Induction: A changing magnetic field induces an electric current in a nearby coil. This is the core principle of how the receiver coil in the EV generates electricity from the magnetic field.
 
-- **IEC 61980** (Wireless Power Transfer for EVs): Defines safety, interoperability, and efficiency.
-- **SAE J2954** (U.S.): Key global standard for wireless charging levels up to 11kW and 22kW.
-- **BIS Certification (India)**: All equipment used (battery, IPT controllers) must be BIS certified.
-- **Indian Telegraph Act (1885)** and **Wireless Planning & Coordination (WPC)**: Ensures that frequencies used in IPT (typically ~85kHz) are in the permissible band.
-- **Ministry of Road Transport & Highways (MoRTH)** and **BEE (Bureau of Energy Efficiency)**: Endorse EV infrastructure models like this under FAME India Scheme Phase II.
+Ampere’s Law: An electric current passing through a conductor generates a magnetic field, which is how the transmitter coil (embedded in the road) produces the oscillating magnetic field.
+
+Lenz’s Law: The induced current in the receiver opposes the change in magnetic flux, providing built-in safety and control mechanisms.
+
+🔋 Real-world Applications:
+
+Smartphones (e.g., iPhones): Operate on the same electromagnetic principles—Faraday’s and Ampere’s Laws. They use inductive charging via coils in the charging pad and the phone. Although the scale and power levels differ, the foundational laws are identical.
+
+EVs in Motion 2 Energy: Use large-scale Inductive Power Transfer (IPT) systems at ~85 kHz. When an EV passes over the embedded coil, its receiver coil picks up the field and converts it to battery charging current.
+
+This shared physics across scales proves the system's scientific soundness and scalability from consumer electronics to highway infrastructure.
+
+Inductive Power Transfer (IPT) using resonant coupling at ~85 kHz.
+
+Static and dynamic (in-motion) charging coils embedded under lane surface.
+
+Power electronics modules regulate phase, frequency, and safety interlocks.
+
+
 
 🔐 Safety Features:
 - No harmful radiation – operates at low frequencies and field-limited designs.
@@ -65,3 +76,13 @@ Wireless charging for EVs—especially on highways—must comply with certain st
 - Real-time temperature,humidity.
 - Tamper event logs.
 - Simple, responsive design using HTML/CSS/JS.
+- 
+📝 Prototype Access
+
+Click the link below to view prototype images and demo videos:
+📂 Google Drive - https://drive.google.com/drive/folders/1WbSbOcw6s88LphyGwNuLemAbrHkJS4AX?usp=sharing
+
+🌍 Vision
+
+From motion to power—building highways that charge our world responsibly.
+
